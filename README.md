@@ -1,3 +1,3 @@
 # My Resume
 
-## Made with HTML and CSS only
+Simple resume made with HTML and CSS
