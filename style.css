@@ -12,9 +12,13 @@
   clear: both;
 }
 
-h1, p, ol, ul {
+h1,
+p,
+ol,
+ul {
   margin-bottom: 0em;
-  font-family: 'Times New Roman', Times, serif, 'Rokkitt', Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif, "Rokkitt", Helvetica, Arial,
+    sans-serif;
   font-size: 1.1em;
   color: #555;
 }
@@ -29,7 +33,8 @@ a {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-html, body {
+html,
+body {
   background-color: #fff;
   font-family: Helvetica, arial, sans-serif;
   padding: 5px 5px 10px 5px;
@@ -63,7 +68,11 @@ html, body {
   width: 100%;
 }
 
-.home, .experience, .education, .skills, .contact {
+.home,
+.experience,
+.education,
+.skills,
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +88,11 @@ html, body {
   text-align: center;
 }
 
-.home.active, .experience.active, .education.active, .skills.active, .contact.active {
+.home.active,
+.experience.active,
+.education.active,
+.skills.active,
+.contact.active {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,12 +139,14 @@ html, body {
 #name h1 {
   font-size: 3em;
   font-weight: 700;
-  font-family: 'Times New Roman', Times, serif, 'Rokkitt', Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif, "Rokkitt", Helvetica, Arial,
+    sans-serif;
 }
 
 #name h2 {
   font-size: 1.3em;
-  font-family: 'Times New Roman', Times, serif, 'Rokkitt', Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif, "Rokkitt", Helvetica, Arial,
+    sans-serif;
 }
 
 .mainDetails section {
@@ -155,7 +170,8 @@ html, body {
 }
 
 .sectionTitle h1 {
-  font-family: 'Times New Roman', Times, serif, 'Rokkitt', Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif, "Rokkitt", Helvetica, Arial,
+    sans-serif;
   font-size: 1.7em;
   font-weight: bold;
   color: #405fa8;
@@ -167,14 +183,16 @@ html, body {
 }
 
 .sectionContent h1 {
-  font-family: 'Times New Roman', Times, serif, 'Rokkitt', Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif, "Rokkitt", Helvetica, Arial,
+    sans-serif;
   font-size: 1.3em;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .sectionContent h2 {
-  font-family: 'Times New Roman', Times, serif, 'Rokkitt', Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif, "Rokkitt", Helvetica, Arial,
+    sans-serif;
   font-size: 1em;
   color: #444;
 }
@@ -211,7 +229,8 @@ html, body {
 }
 
 @media all and (max-width: 601px) {
-  .sectionTitle, .sectionContent {
+  .sectionTitle,
+  .sectionContent {
     float: none;
     width: 100%;
   }
